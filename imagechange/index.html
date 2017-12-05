@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>image change</title>
+  <style>
+    .box {
+      width: 500px;
+      margin: 20px auto;
+    }
+    .img-box {
+      width: 200px;
+    }
+    img {
+      width: 100%;
+    }
+    button {
+      color: white;
+      background: teal;
+      border: none;
+      padding: 10px;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <button onclick="prev()">Prev</button>
+    <button onclick="next()">Next</button>
+    <div class="img-box">
+      <img id="img" src="images/1.jpg" alt="">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
