@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    table, th, td {
+      border: 1px solid red;
+      padding: 10px;
+      border-collapse: collapse;
+    }
+    input {
+      padding: 10px;
+      display: block;
+      margin: 20px 0;
+    }
+    button {
+      padding: 10px;
+      color: white;
+      background: teal;
+    }
+  </style>
+</head>
+<body>
+  <table id="table">
+    <tr>
+      <th>name</th>
+      <th>email</th>
+    </tr>
+    <tr>
+      <td>shibu</td>
+      <td>shibu@gmail.com</td>
+    </tr>
+    <tr>
+      <td>shibu</td>
+      <td>shibu@gmail.com</td>
+    </tr>
+    <tr>
+      <td>shibu</td>
+      <td>shibu@gmail.com</td>
+    </tr>
+  </table>
+  <input type="text" id="name" placeholder="Enter you name">
+  <input type="text" id="email" placeholder="Enter you email">
+  <button onclick="addPeople()">Add people</button>
+  <script src="script.js"></script>
+</body>
+</html>
