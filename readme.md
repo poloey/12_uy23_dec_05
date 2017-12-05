@@ -1,4 +1,8 @@
 
+## Little project
+* Create a dynamic table
+* Create a image changer and slide show using js
+
 ## to create text node 
 
 ~~~js
